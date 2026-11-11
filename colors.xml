@@ -1,0 +1,94 @@
+<theme>
+
+    <colorScheme name="artwork-cover">
+        <variables>
+            <artworkType>cover</artworkType>
+            <artworkFit>cover</artworkFit>
+            <defaultArtwork>${rootpath}/_inc/assets/default_cover.webp</defaultArtwork>
+            <cornerRadious>0</cornerRadious>
+        </variables>
+   </colorScheme>
+
+   <colorScheme name="artwork-cover-rounded">
+        <variables>
+            <artworkType>cover</artworkType>
+            <artworkFit>cover</artworkFit>
+            <defaultArtwork>${rootpath}/_inc/assets/default_cover.webp</defaultArtwork>
+            <cornerRadious>0.008</cornerRadious>
+        </variables>
+   </colorScheme>
+
+   <colorScheme name="artwork-cover-contain">
+        <variables>
+            <artworkType>cover</artworkType>
+            <artworkFit>contain</artworkFit>
+            <defaultArtwork>${rootpath}/_inc/assets/default_cover.webp</defaultArtwork>
+            <cornerRadious>0</cornerRadious>
+        </variables>
+   </colorScheme>
+
+    <colorScheme name="artwork-cover-contain-rounded">
+        <variables>
+            <artworkType>cover</artworkType>
+            <artworkFit>contain</artworkFit>
+            <defaultArtwork>${rootpath}/_inc/assets/default_cover.webp</defaultArtwork>
+            <cornerRadious>0.008</cornerRadious>
+        </variables>
+   </colorScheme>
+
+     <colorScheme name="artwork-cover-fill">
+        <variables>
+            <artworkType>cover</artworkType>
+            <artworkFit>fill</artworkFit>
+            <defaultArtwork>${rootpath}/_inc/assets/default_cover.webp</defaultArtwork>
+             <cornerRadious>0</cornerRadious>
+        </variables>
+   </colorScheme>
+
+    <colorScheme name="artwork-cover-fill-rounded">
+        <variables>
+            <artworkType>cover</artworkType>
+            <artworkFit>fill</artworkFit>
+            <defaultArtwork>${rootpath}/_inc/assets/default_cover.webp</defaultArtwork>
+            <cornerRadious>0.008</cornerRadious>
+        </variables>
+   </colorScheme>
+
+   <colorScheme name="artwork-3dbox">
+        <variables>
+             <artworkType>3dbox,cover</artworkType>
+             <artworkFit>contain</artworkFit>
+             <defaultArtwork>${rootpath}/_inc/assets/default_box.webp</defaultArtwork>
+             <cornerRadious>0</cornerRadious>
+        </variables>
+   </colorScheme>
+
+   <colorScheme name="artwork-media">
+        <variables>
+             <artworkType>physicalmedia,marquee</artworkType>
+             <artworkFit>contain</artworkFit>
+             <defaultArtwork>${rootpath}/_inc/assets/default_media.webp</defaultArtwork>
+             <cornerRadious>0</cornerRadious>
+        </variables>
+   </colorScheme>
+
+     <colorScheme name="artwork-miximage">
+        <variables>
+             <artworkType>miximage,titlescreen</artworkType>
+             <artworkFit>contain</artworkFit>
+             <defaultArtwork>${rootpath}/_inc/assets/default_media.webp</defaultArtwork>
+             <cornerRadious>0</cornerRadious>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="artwork-marquee">
+        <variables>
+             <artworkType>marquee</artworkType>
+             <artworkFit>contain</artworkFit>
+             <defaultArtwork>${rootpath}/_inc/assets/default_media.webp</defaultArtwork>
+             <cornerRadious>0</cornerRadious>
+        </variables>
+   </colorScheme>
+
+</theme>
+

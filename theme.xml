@@ -1,0 +1,43 @@
+<theme>
+
+    <variables>
+        <rootpath>./</rootpath>
+            <fallbackLogo>${rootpath}/_inc/images/_logo.png</fallbackLogo>
+        </variables>
+
+    <include>${rootpath}/navigationsounds.xml</include>
+
+    <include>${rootpath}/_inc/systems/metadata-global/_default.xml</include>
+    <include>${rootpath}/_inc/systems/metadata-global/${system.theme}.xml</include>
+
+    <include>${rootpath}/colors.xml</include>
+
+     <view name="system">
+           <gameselector name="video-selector">
+                <selection>random</selection>
+           </gameselector>
+     </view>
+
+    <variant name="carousel-1">
+        <include>${rootpath}/carousel1_19.5-9.xml</include>
+        <include>${rootpath}/carousel1_16-9.xml</include>
+        <include>${rootpath}/carousel1_16-10.xml</include>
+        <include>${rootpath}/carousel1_4-3.xml</include>
+    </variant>
+
+    <variant name="carousel-2">
+        <include>${rootpath}/carousel2_19.5-9.xml</include>
+        <include>${rootpath}/carousel2_16-9.xml</include>
+        <include>${rootpath}/carousel2_16-10.xml</include>
+        <include>${rootpath}/carousel2_4-3.xml</include>
+    </variant>
+
+    <variant name="carousel-3">
+        <include>${rootpath}/carousel3_19.5-9.xml</include>
+        <include>${rootpath}/carousel3_16-9.xml</include>
+        <include>${rootpath}/carousel3_16-10.xml</include>
+        <include>${rootpath}/carousel3_4-3.xml</include>
+    </variant>
+
+</theme>
+

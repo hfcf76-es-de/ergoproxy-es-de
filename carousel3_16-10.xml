@@ -1,0 +1,503 @@
+<theme> 
+
+       <aspectRatio name="16:10">
+
+        <view name="system">
+            
+             <image name="background">
+                <pos>0.5 0.5</pos>
+                <origin>0.5 0.5</origin>
+                <size>1 1</size>
+                <path>${rootpath}/_inc/assets/system_bg.webp</path>
+                <interpolation>linear</interpolation>
+                <zIndex>5</zIndex>
+             </image>
+
+            <image name="fanart-left">
+                <pos>0.16 0.441</pos>
+                <origin>0.5 0.5</origin>
+                <cropSize>0.325 0.395</cropSize>
+                <cropPos>1 0.5</cropPos>
+                <path>${rootpath}/_inc/systems/fanart/left/${system.theme}.webp</path>
+                <default>${rootpath}/_inc/systems/fanart/left/custom-collections.webp</default>
+                <scrollFadeIn>true</scrollFadeIn>
+                <interpolation>linear</interpolation>
+                <zIndex>10</zIndex>
+             </image>
+
+            <image name="fanart-right">
+                <pos>0.838 0.441</pos>
+                <origin>0.5 0.5</origin>
+                <cropSize>0.325 0.395</cropSize>
+                <cropPos>0.5 0.5</cropPos>
+                <path>${rootpath}/_inc/systems/fanart/right/${system.theme}.webp</path>
+                <default>${rootpath}/_inc/systems/fanart/right/custom-collections.webp</default>
+                <scrollFadeIn>true</scrollFadeIn>
+                <interpolation>linear</interpolation>
+                <zIndex>10</zIndex>
+             </image>
+
+            <image name="video-background">
+                <pos>0.5 0.44</pos>
+                <origin>0.5 0.5</origin>
+                <maxSize>0.6 0.6</maxSize>
+                <path>${rootpath}/_inc/assets/system_vidbg.webp</path>
+                <interpolation>linear</interpolation>
+                <zIndex>15</zIndex>
+             </image> 
+
+            <video name="system-video">
+                <pos>0.499 0.441</pos>
+                <size>0.383 0.457</size>
+                <origin>0.5 0.5</origin>
+                <imageType>screenshot</imageType>
+                <interpolation>linear</interpolation>
+                <delay>0</delay>
+                <zIndex>15</zIndex>
+            </video>
+            
+            <image name="video-overlay">
+                <pos>0.5 0.44</pos> 
+                <origin>0.5 0.5</origin>
+                <maxSize>0.6 0.6</maxSize>
+                <path>${rootpath}/_inc/assets/system_vidover.webp</path>
+                <interpolation>linear</interpolation>
+                <zIndex>20</zIndex>
+             </image> 
+
+             <image name="top-menu-background">
+                <pos>0.5 0</pos>
+                <origin>0.5 0</origin>
+                <size>1 0.15</size>
+                <path>${rootpath}/_inc/assets/top_menubg.webp</path>
+                <interpolation>linear</interpolation>
+                <zIndex>25</zIndex>
+             </image> 
+
+            <image name="top-label">
+                <pos>0.5 0.12</pos>
+                <origin>0.5 0.5</origin>
+                <maxSize>0.25 0.25</maxSize>
+                <path>${rootpath}/_inc/assets/ergoproxy.webp</path>
+                <interpolation>linear</interpolation>
+                <zIndex>30</zIndex>
+             </image> 
+
+            <image name="logo-background">
+                <pos>0 0.815</pos>
+                <origin>0 0.5</origin>
+                <maxSize>0.35 0.35</maxSize>
+                <path>${rootpath}/_inc/assets/logo_bg.webp</path>
+                <interpolation>linear</interpolation>
+                <zIndex>35</zIndex>
+             </image> 
+
+            <image name="system-logo">
+                <pos>0.155 0.8</pos>
+                <origin>0.5 0.5</origin>
+                <maxSize>0.25 0.1</maxSize>
+                <path>${rootpath}/_inc/systems/logos_white/${system.theme}.svg</path>
+                <default>${rootpath}/_inc/systems/logos_white/custom-collections.svg</default>
+                <interpolation>linear</interpolation>
+                <scrollFadeIn>true</scrollFadeIn>
+                <zIndex>40</zIndex>
+            </image> 
+
+            <image name="system-description-background">
+                <pos>0.66 0.815</pos>
+                <origin>0 0.5</origin>
+                <size>0.34 0.16</size>
+                <path>${rootpath}/_inc/assets/mark_bg.webp</path>
+                <interpolation>linear</interpolation>
+                <zIndex>45</zIndex>
+             </image> 
+
+             <image name="system-description-mark">
+                <pos>0.66 0.815</pos>
+                <origin>0 0.5</origin>
+                <size>0.008 0.16</size>
+                <path>${rootpath}/_inc/assets/mark.webp</path>
+                <interpolation>linear</interpolation>
+                <zIndex>50</zIndex>
+             </image> 
+
+             <text name="system-description">
+                <pos>0.675 0.818</pos>
+                <origin>0 0.5</origin>
+                <size>0.32 0.17</size>
+                <text>${systemDescription}</text>
+                <container>true</container>
+                <containerType>vertical</containerType>
+			    <horizontalAlignment>left</horizontalAlignment>
+                <verticalAlignment>center</verticalAlignment>
+                <lineSpacing>1</lineSpacing>
+                <containerScrollSpeed>1</containerScrollSpeed>
+                <containerStartDelay>3</containerStartDelay>
+                <fontSize>0.028</fontSize>
+                <fontPath>${rootpath}/_inc/fonts/Trebuchet.ttf</fontPath>
+                <color>FFFFFF</color>
+                <zIndex>55</zIndex>
+           </text>
+
+            <image name="system-controllers">
+                <pos>0.5 0.8</pos>
+                <origin>0.5 0.5</origin>
+                <maxSize>0.25 0.15</maxSize>
+                <path>${rootpath}/_inc/systems/controllers/${system.theme}.webp</path>
+                <default>${rootpath}/_inc/systems/controllers/custom-collections.webp</default>
+                <interpolation>linear</interpolation>
+                <scrollFadeIn>true</scrollFadeIn>
+                <zIndex>60</zIndex>
+             </image> 
+
+             <image name="bottom-menu-backoround">
+                <pos>0.5 1</pos>
+                <origin>0.5 1</origin>
+                <size>1 0.15</size>
+                <path>${rootpath}/_inc/assets/bottom_menubg.webp</path>
+                <interpolation>linear</interpolation>
+                <zIndex>65</zIndex>
+             </image> 
+
+             <image name="bottom-label">
+                <pos>0.5 0.89</pos>
+                <origin>0.5 0.5</origin>
+                <maxSize>0.2 0.2</maxSize>
+                <path>${rootpath}/_inc/assets/bottom_label.webp</path>
+                <interpolation>linear</interpolation>
+                <zIndex>70</zIndex>
+             </image> 
+
+            <text name="game-count">
+                <pos>0.5 0.915</pos>
+                <origin>0.5 0</origin>
+                <size>1 0</size>
+                <systemdata>gamecountGames</systemdata>
+                <fontSize>0.026</fontSize>
+                <fontPath>${rootpath}/_inc/fonts/GeforceBold.ttf</fontPath>
+                <letterCase>uppercase</letterCase>
+                <lineSpacing>1</lineSpacing>
+                <horizontalAlignment>center</horizontalAlignment>
+                <color>FFFFFF</color>
+                <zIndex>75</zIndex>
+            </text>
+
+             <carousel name="system-carousel">
+                <pos>0.5 0.97</pos>
+                <size>1 1</size>
+                <origin>0.5 0.5</origin>
+                <type>horizontal</type>
+                <imageType>none</imageType>
+                <itemSize>1 1</itemSize>
+                <itemScale>1</itemScale>
+                <maxItemCount>3</maxItemCount>
+                <imageInterpolation>linear</imageInterpolation>
+                <fastScrolling>true</fastScrolling>
+                <color>00000000</color>
+                <textColor>FFFFFF</textColor>
+                <fontSize>0.038</fontSize>
+                <fontPath>${rootpath}/_inc/fonts/GeforceBold.ttf</fontPath>
+                <letterCase>capitalize</letterCase>
+                <lineSpacing>1</lineSpacing>
+                <unfocusedItemOpacity>0.75</unfocusedItemOpacity>
+                <unfocusedItemDimming>0.75</unfocusedItemDimming>
+                <zIndex>80</zIndex>
+             </carousel>
+            
+        </view>
+
+        <view name="gamelist">
+
+             <image name="background">
+                <pos>0.5 0.5</pos>
+                <origin>0.5 0.5</origin>
+                <size>1 1</size>
+                <path>${rootpath}/_inc/assets/game_bg.webp</path>
+                <interpolation>linear</interpolation>
+                <zIndex>5</zIndex>
+             </image>
+
+            <image name="top-menu-background">
+                <pos>0.5 0</pos>
+                <origin>0.5 0</origin>
+                <size>1 0.15</size>
+                <path>${rootpath}/_inc/assets/top_menubg.webp</path>
+                <interpolation>linear</interpolation>
+                <zIndex>10</zIndex>
+             </image> 
+
+            <image name="top-label">
+                <pos>0.5 0.12</pos>
+                <origin>0.5 0.5</origin>
+                <maxSize>0.25 0.25</maxSize>
+                <path>${rootpath}/_inc/assets/top_label.webp</path>
+                <interpolation>linear</interpolation>
+                <zIndex>15</zIndex>
+             </image> 
+
+             <gamelistinfo name="gamelist-info">
+                <pos>0.5 0.068</pos>
+                <origin>0.5 0.5</origin>
+                <size>w 0.02</size>
+                <fontSize>0.032</fontSize>
+                <fontPath>${rootpath}/_inc/fonts/GeforceBold.ttf</fontPath>
+                <horizontalAlignment>center</horizontalAlignment>
+                <verticalAlignment>bottom</verticalAlignment>
+                <color>FFFFFF</color>
+                <zIndex>20</zIndex>
+            </gamelistinfo>
+
+             <image name="game-name-mark">
+                <pos>0.05 0.16</pos>
+                <origin>0 0.5</origin>
+                <size>0.008 0.05</size>
+                <path>${rootpath}/_inc/assets/mark.webp</path>
+                <interpolation>linear</interpolation>
+                <zIndex>25</zIndex>
+             </image> 
+
+            <text name="game-name">
+                <pos>0.065 0.16</pos>
+                <origin>0 0.5</origin>
+                <size>0.91 0</size>
+                <container>true</container>
+                <containerType>horizontal</containerType>
+			    <horizontalAlignment>left</horizontalAlignment>
+                <verticalAlignment>bottom</verticalAlignment>
+                <lineSpacing>1</lineSpacing>
+                <metadata>name</metadata>
+                <fontSize>0.038</fontSize>
+                <letterCase>uppercase</letterCase>
+                <fontPath>${rootpath}/_inc/fonts/GeforceBold.ttf</fontPath>
+                <horizontalAlignment>left</horizontalAlignment>
+                <color>FFFFFF</color>
+                <zIndex>25</zIndex>
+            </text>
+
+            <image name="bottom-gradient">
+                <pos>0.5 1</pos>
+                <origin>0.5 1</origin>
+                <size>1 0.5</size>
+                <path>${rootpath}/_inc/assets/bottom_grad.webp</path>
+                <interpolation>linear</interpolation>
+                <zIndex>30</zIndex>
+             </image> 
+
+             <carousel name="game-carousel">
+                <pos>0.5 0.6</pos>
+                <size>1.1 1</size>
+                <origin>0.5 0.5</origin>
+                <type>horizontal</type>
+                <imageType>${artworkType}</imageType>
+                <imageFit>${artworkFit}</imageFit>
+                <defaultImage>${defaultArtwork}</defaultImage>
+                <imageCornerRadius>${cornerRadious}</imageCornerRadius>
+                <itemSize>0.16 0.36</itemSize>
+                <itemScale>1.5</itemScale>
+                <itemLinearSpacing>-0.0425 -0.0425</itemLinearSpacing> 
+                <itemLinearScale>-0.085 -0.085</itemLinearScale>
+                <selectedItemOffset>0 0.03</selectedItemOffset>
+                <horizontalOffset>0</horizontalOffset>
+                <maxItemCount>9</maxItemCount>
+                <imageInterpolation>linear</imageInterpolation>
+                <fastScrolling>true</fastScrolling>
+                <color>00000000</color>
+                <unfocusedItemOpacity>1</unfocusedItemOpacity>  
+                <lineSpacing>1</lineSpacing>
+                <reflections>true</reflections>
+                <reflectionsOpacity>0.25</reflectionsOpacity>
+                <reflectionsFalloff>1.25</reflectionsFalloff>
+                <unfocusedItemOpacity>0.90</unfocusedItemOpacity>
+                <unfocusedItemDimming>0.90</unfocusedItemDimming>
+                <textColor>FFFFFF</textColor>
+                <fontSize>0.04</fontSize>
+                <fontPath>${rootpath}/_inc/fonts/GeforceBold.ttf</fontPath>
+                <letterCase>capitalize</letterCase>
+                <lineSpacing>1.2</lineSpacing>
+                <zIndex>35</zIndex>
+            </carousel>
+
+             
+            <image name="box-overlay">
+                <pos>0.5 0.705</pos>
+                <origin>0.5 0.55</origin>
+                <maxSize>0.4 0.4</maxSize>
+                <path>${rootpath}/_inc/assets/box_over.webp</path>
+                <interpolation>linear</interpolation>
+                <zIndex>40</zIndex>
+             </image> 
+
+            <image name="system-logo">
+                <pos>0.11 0.9</pos>
+                <origin>0.5 0.5</origin>
+                <maxSize>0.175 0.15</maxSize>
+                <path>${rootpath}/_inc/systems/logos_color/${system.theme}.svg</path>
+                <default>${rootpath}/_inc/systems/logos_color/custom-collections.svg</default>
+                <interpolation>linear</interpolation>
+                <zIndex>45</zIndex>
+            </image> 
+
+            <image name="game-icons">
+                <pos>0.45 0.9</pos>
+                <origin>0.5 0.5</origin>
+                <maxSize>0.5 0.5</maxSize>
+                <path>${rootpath}/_inc/assets/game_icons.webp</path>
+                <interpolation>linear</interpolation>
+                <zIndex>50</zIndex>
+            </image> 
+
+            <text name="game-genre">
+                <pos>0.304 0.895</pos>
+                <origin>0.5 0.5</origin>
+                <size>0.11 0</size>
+                <metadata>genre</metadata>
+                <container>true</container>
+                <defaultValue>Unknown</defaultValue>
+                <containerType>horizontal</containerType>
+                <horizontalAlignment>center</horizontalAlignment><horizontalAlignment>center</horizontalAlignment>
+                <fontPath>${rootpath}/_inc/fonts/GeforceBold.ttf</fontPath>
+                <letterCase>capitalize</letterCase>
+                <fontSize>0.032</fontSize>
+                <color>FFFFFF</color>
+                <zIndex>55</zIndex>
+            </text>
+
+            <text name="game-players">
+                <pos>0.463 0.895</pos>
+                <origin>0.5 0.5</origin>
+                <size>0.11 0</size>
+                <metadata>players</metadata>
+                <container>true</container>
+                <defaultValue>?</defaultValue>
+                <containerType>horizontal</containerType>
+                <horizontalAlignment>center</horizontalAlignment>
+                <fontPath>${rootpath}/_inc/fonts/GeforceBold.ttf</fontPath>
+                <fontSize>0.036</fontSize>
+                <color>FFFFFF</color>
+                <zIndex>55</zIndex>
+            </text>
+
+             <datetime name="game-releasedate">
+                <pos>0.624 0.895</pos>
+                <origin>0.5 0.5</origin>
+                <size>0.11 0</size>
+                <metadata>releasedate</metadata>
+                <format>%Y</format>
+                <defaultValue>?</defaultValue>
+                <horizontalAlignment>center</horizontalAlignment>
+                <fontPath>${rootpath}/_inc/fonts/GeforceBold.ttf</fontPath>
+                <fontSize>0.034</fontSize>
+                <color>FFFFFF</color>
+                <zIndex>55</zIndex>
+            </datetime>
+
+            <image name="video-background">
+                <pos>0.84 0.8</pos>
+                <origin>0.5 0.5</origin>
+                <maxSize>0.4 0.4</maxSize>
+                <path>${rootpath}/_inc/assets/game_vidbg.webp</path>
+                <interpolation>linear</interpolation>
+                <zIndex>60</zIndex>
+            </image> 
+
+            <video name="game-video">
+                <pos>0.847 0.814</pos>
+                <size>0.253 0.303</size>
+                <origin>0.5 0.5</origin>
+                <imageType>screenshot</imageType>
+                <interpolation>linear</interpolation>
+                <delay>0</delay>
+                <zIndex>65</zIndex>
+            </video>     
+
+             <image name="video-overlay">
+                <pos>0.84 0.8</pos>
+                <origin>0.5 0.5</origin>
+                <maxSize>0.4 0.4</maxSize>
+                <path>${rootpath}/_inc/assets/game_vidover.webp</path>
+                <interpolation>linear</interpolation>
+                <zIndex>70</zIndex>
+            </image> 
+            
+            <image name="game-description-mark">
+                <pos>0.035 0.741</pos>
+                <origin>0 0.5</origin>
+                <size>0.008 0.17</size>
+                <path>${rootpath}/_inc/assets/mark.webp</path>
+                <interpolation>linear</interpolation>
+                <zIndex>75</zIndex>
+             </image> 
+
+          <text name="game-description">
+                <origin>0.5 0.5</origin>
+                <pos>0.2 0.753</pos>
+                <size>0.3 0.19</size>
+                <metadata>description</metadata>
+                <container>true</container>
+                <containerType>vertical</containerType>
+			    <horizontalAlignment>left</horizontalAlignment>
+                <verticalAlignment>bottom</verticalAlignment>
+                <lineSpacing>1</lineSpacing>
+                <containerScrollSpeed>1</containerScrollSpeed>
+                <containerStartDelay>3</containerStartDelay>
+                <fontSize>0.028</fontSize>
+                <fontPath>${rootpath}/_inc/fonts/Trebuchet.ttf</fontPath>
+                <color>FFFFFF</color>
+                <zIndex>80</zIndex>
+           </text>
+           
+            <badges name="favorite-badge">
+                <pos>0.5 0.84</pos>
+                <origin>0.5 0.5</origin>
+                <size>0.35 0.15</size>
+                <horizontalAlignment>center</horizontalAlignment>
+                <slots>favorite</slots>
+                <customBadgeIcon badge="favorite">${rootpath}/_inc/assets/fav.webp</customBadgeIcon>
+                <badgeIconColor>FFFFFF</badgeIconColor> 
+                <interpolation>linear</interpolation>
+                <zIndex>85</zIndex>
+            </badges>
+
+        </view>
+
+       <view name="system, gamelist">
+
+            <helpsystem name="help">
+                <pos>0.5 0.025</pos>
+                <origin>0.5 0.5</origin>
+                <textColor>FFFFFF</textColor>
+                <iconColor>FFFFFF</iconColor>
+                <fontSize>0.03</fontSize>
+                <letterCase>capitalize</letterCase>
+                <fontPath>${rootpath}/_inc/fonts/GeforceLight.ttf</fontPath>
+                <iconTextSpacing>0.003</iconTextSpacing>
+                <originDimmed>0.5 0.5</originDimmed>
+                <posDimmed>0.5 0.025</posDimmed>
+            </helpsystem>
+
+            <clock name="clock">
+                <origin>0 0</origin>
+                <pos>0.01 0.01</pos>
+                <size>0.5 0</size>
+                <fontPath>${rootpath}/_inc/fonts/GeforceLight.ttf</fontPath>
+                <fontSize>0.034</fontSize>
+                <horizontalAlignment>left</horizontalAlignment>
+                <color>FFFFFF</color>
+            </clock>
+        
+            <systemstatus name="system-status">
+                <origin>1 0</origin>
+                <pos>0.98 0.01</pos>
+                <textRelativeScale>1</textRelativeScale>
+                <fontPath>${rootpath}/_inc/fonts/GeforceLight.ttf</fontPath>
+                <color>FFFFFF</color>
+            </systemstatus>
+
+            
+
+        </view>
+
+     </aspectRatio>
+
+</theme>
+
