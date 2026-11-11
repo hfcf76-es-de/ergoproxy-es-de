@@ -1,6 +1,6 @@
 # Ergo Proxy (Revisited) (https://github.com/hfcf76-es-de), theme for [ES-DE](https://es-de.org/)
 
-Ergo Proxy is a theme based/ported from theme created by "Ryuuji" for the [RetroFE](http://retrofe.nl/) frontend, featuring some additional layouts.
+Ergo Proxy is a theme based/ported from the theme created by "Ryuuji" for the [RetroFE](http://retrofe.nl/) frontend, featuring some additional layouts.
 
 ## Configuration Options
 
