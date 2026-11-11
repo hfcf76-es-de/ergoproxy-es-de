@@ -9,13 +9,13 @@ Ergo Proxy is a theme based/ported from the theme created by "Ryuuji" for the [R
 - `Theme Variants`:
 
 Carousel 1:
-Games flow carousel with the selected item on the left
+Carousel games with the selected item on the left
 
 Carousel 2:
-Games flow carousel with the selected item in the center
+Carousel games with the selected item in the center
 
 Carousel 3:
-Games flow carousel with the selected item centered, featuring linear scaling down of the unselected items
+Carousel games with the selected item centered, featuring linear scaling down of the unselected items
 
 - `Theme Color Schemes:`
 
