@@ -301,7 +301,6 @@
                 <imageInterpolation>linear</imageInterpolation>
                 <fastScrolling>true</fastScrolling>
                 <color>00000000</color>
-                <unfocusedItemOpacity>1</unfocusedItemOpacity>  
                 <reflections>true</reflections>
                 <reflectionsOpacity>0.25</reflectionsOpacity>
                 <reflectionsFalloff>1.25</reflectionsFalloff>
