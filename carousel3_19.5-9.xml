@@ -269,7 +269,6 @@
                 <fontSize>0.038</fontSize>
                 <letterCase>uppercase</letterCase>
                 <fontPath>${rootpath}/_inc/fonts/GeforceBold.ttf</fontPath>
-                <horizontalAlignment>left</horizontalAlignment>
                 <color>FFFFFF</color>
                 <zIndex>25</zIndex>
             </text>
