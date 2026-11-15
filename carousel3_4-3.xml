@@ -354,7 +354,7 @@
                 <container>true</container>
                 <defaultValue>Unknown</defaultValue>
                 <containerType>horizontal</containerType>
-                <horizontalAlignment>center</horizontalAlignment><horizontalAlignment>center</horizontalAlignment>
+                <horizontalAlignment>center</horizontalAlignment>
                 <fontPath>${rootpath}/_inc/fonts/GeforceBold.ttf</fontPath>
                 <letterCase>capitalize</letterCase>
                 <fontSize>0.026</fontSize>
